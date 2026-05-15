@@ -36,13 +36,11 @@
         "decryption": "none"
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "none",
-        "xhttpSettings": {
-          "mode": "packet-up",
-          "path": "/sham_sf",
-          "maxUploadSize": 1000000,
-          "maxConcurrentUploads": 10
+        "wsSettings": {
+         "path": "/sham_sf",
+         "headers": {}
         }
       },
       "sniffing": {
